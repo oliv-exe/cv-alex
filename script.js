@@ -23,11 +23,15 @@ window.addEventListener('scroll', function() {
 
 const partover = document.querySelectorAll('.mouseover');
 const texts = ["LE MEILLEUR", "LE PLUS BEAU", "LE PLUS FORT", "LE SPEEDRUNNER"];
+const element = document.querySelector('.newtext');
 
 partover.forEach(function(overeffect) {
     overeffect.addEventListener('mouseenter', function() {
+
         const textaleatoire = Math.floor(Math.random() * texts.length);
         document.querySelector('.newtext').textContent = texts[textaleatoire];
+
+        element.classList.add('animate__animated', 'animate__shakeX');
     })
 });
 

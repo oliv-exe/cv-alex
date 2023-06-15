@@ -29,7 +29,7 @@ main {
     background-color: rgb(45, 46, 41);
 }
 
-.modal h2 {
+.modal p {
     padding: 2vw;
     margin: 0;
     font-weight: 900;
@@ -53,6 +53,7 @@ form input {
     padding: 0.5vw;
     width: 50%;
     margin: 1vh;
+    font-size: 0.8vw;
 }
 
 form textarea {
@@ -62,6 +63,7 @@ form textarea {
     width: 50%;
     height: 10vh;
     margin: 1vh;
+    font-size: 0.8vw;
 }
 
 form button {
@@ -118,8 +120,16 @@ form button:hover {
     height: 50%;
 }
 
-.exp-t1 h3 {
+.exp-t1 p {
     padding-top: 6vh;
+}
+
+.exp h1 {
+    margin: 0;
+    font-weight: 900;
+    color: rgb(202, 150, 63);
+    font-size: 3vw;
+    padding-bottom: 5vh;
 }
 
 .exp h2 {
@@ -136,7 +146,7 @@ form button:hover {
     display: flex;
 }
 
-.exp h3 {
+.exp .mini-exp {
     margin: 0;
     font-weight: 700;
     color: rgb(45, 46, 41);
@@ -148,12 +158,18 @@ form button:hover {
     font-weight: 900;
 }
 
-.exp p {
+.exp .mini-text {
     margin: 0;
     font-weight: 400;
     color: rgb(45, 46, 41);
     font-size: 1vw;
     position: absolute;
+}
+
+.exp-t1 p {
+    font-weight: 700;
+    line-height: 3.5vh;
+    margin-right: 3vw;
 }
 
 .exp-text {
@@ -176,11 +192,15 @@ form button:hover {
     justify-content: space-between;
 }
 
-.dates h3{
+.dates .date-bold {
     padding: 0;
     margin: auto;
     color: rgb(202, 150, 63);
-}
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.2vw;
+    line-height: 3.5vh;
+}title
 
 .bar1 {
     background-color: rgb(45, 46, 41);
@@ -240,7 +260,7 @@ form button:hover {
     font-size: 2vw;
 }
 
-.bio h3 {
+.bio .mini-title {
     margin: 0;
     margin-top: 6vh;
     font-weight: 700;
@@ -307,14 +327,14 @@ form button:hover {
     flex-direction: column;
 }
 
-.title h1 {
+.title .name {
     margin: 0;
     font-size: 5vw;
     font-weight: 900;
     color: rgb(240, 234, 216);
 }
 
-.title h2 {
+.title .newtext {
     margin: 0;
     font-size: 2vw;
     font-weight: 400;
@@ -422,7 +442,7 @@ progress[value]::-webkit-progress-value {
     margin-left: 25%;
 }
 
-.final h3 {
+.final .final-text {
     margin-top: 5vh;
     font-weight: 700;
     color: rgb(240, 234, 216);
@@ -476,13 +496,25 @@ progress[value]::-webkit-progress-value {
     .exp-t1 {
         margin-right: 5vw;
     }
+    .exp h1 {
+        font-size: 0;
+        margin: 0;
+        padding: 0;
+    }
     .exp h2 {
         font-size: 8vw;
     }
-    .exp h3 {
+    .exp .mini-exp {
         font-size: 5vw;
     }
-    .exp p {
+    .exp .date-bold {
+        font-size: 5vw;
+        font-weight: 700;
+    }
+    .exp-t1 .mini-text {
+        font-size: 5vw;
+    }
+    .exp-t2 .mini-text {
         font-size: 0vw;
     }
     .exp .bar1, .bar2{
@@ -496,7 +528,7 @@ progress[value]::-webkit-progress-value {
     .bio h2 {
         font-size: 8vw;
     }
-    .bio h3 {
+    .bio .mini-title {
         font-size: 5vw;
     }
     .bio p {
@@ -509,10 +541,10 @@ progress[value]::-webkit-progress-value {
         width: 104%;
         height: 100vh;
     }
-    .title h1 {
+    .title .name {
         font-size: 14vw;
     }
-    .title h2 {
+    .title .newtext {
         font-size: 6vw;
     }
     footer{
@@ -547,7 +579,7 @@ progress[value]::-webkit-progress-value {
     .final h2 {
         font-size: 8vw;
     }
-    .final h3 {
+    .final .final-text {
         font-size: 5vw;
         margin-left: -12vw;
     }
