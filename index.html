@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/styles.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>CV Alex</title>
+</head>
+
+<main>
+    <div id="modal" class="modal">
+        <span class="fermer">&times;</span>
+        <h2>Envoyer un email</h2>
+        <form id="formulaire">
+          <input type="text" id="nom" placeholder="Votre nom">
+          <input type="email" id="email" placeholder="Votre email">
+          <textarea id="message" placeholder="Votre message"></textarea>
+          <button id="envoyer">Envoyer</button>
+        </form>
+    </div>
+
+    <div class="blureffect"></div>
+
+    <div class="exp animate__animated animate__fadeInLeftBig mouseover">
+        <div class="exp-t1">
+            <h2>
+                Présentation
+            </h2>
+            <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae at id repellat minus nostrum, sapiente eveniet. Sint eveniet at a, beatae quod consequatur nulla, consequuntur veniam sequi vero mollitia tenetur.
+            </h3>
+        </div>
+        <div class="exp-t2">
+            <h2>
+                Expérience
+            </h2>
+            <div class="exp-global">
+                <div class="dates">
+                    <h3>
+                        2021
+                    </h3>
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <h3>
+                        2022
+                    </h3>
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <h3>
+                        2023
+                    </h3>
+                </div>
+                <div class="exp-text">
+                    <div class="text-group">
+                        <h3>
+                            <b>Stage de Troisième</b> - NoConsulting
+                        </h3>
+                        <p>
+                            Développement informatique, Loos
+                        </p>
+                    </div>
+                    <div class="text-group">
+                        <h3>
+                            <b>Brevet des Collèges</b> - Collège Albert Camus
+                        </h3>
+                        <p>
+                            Mention très bien, Thumeries
+                        </p>
+                    </div>
+                    <div class="text-group">
+                        <h3>
+                            <b>Stage de Seconde</b> - Capitaine Code
+                        </h3>
+                        <p>
+                            Développement informatique, Anzin
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bio animate__animated animate__fadeInDownBig mouseover">
+        <div class="bio-t1">
+            <h2>
+                Infos
+            </h2>
+            <h3>
+                Date de naissance :
+            </h3>
+            <p>
+                5 Mars 2007
+            </p>
+            <h3>
+                Nationalité :
+            </h3>
+            <p>
+                Français
+            </p>
+            <h3>
+                Langues :
+            </h3>
+            <p>
+                Français : Natif, Anglais : Apprentissage
+            </p>
+        </div>
+        <div class="bio-t2">
+            <h2>
+                Contact
+            </h2>
+            <h3>
+                E-mail :
+            </h3>
+            <button id="ouvrir-modal">Envoyer un E-Mail</button>
+            <h3 id="h3-3vh">
+                Portable :
+            </h3>
+            <p>
+                07 79 42 10 19
+            </p>
+            <h3>
+                Adresse :
+            </h3>
+            <p>
+                1600, Pennsylvania Avenue NW, Washington D.C
+            </p>
+        </div>
+    </div>
+    
+    <div class="title animate__animated animate__fadeInRightBig mouseover">
+        <div class="title-image">
+            <img src="images/tamarin.jpg" alt="tamarin empereur">
+        </div>
+        <div class="title-t1">
+            <div class="title-t2">
+                <h1 class="">
+                    Alex O'
+                </h1>
+                <h2 class="newtext">
+                    LE MEILLEUR
+                </h2>
+            </div>
+        </div>
+    </div>
+</main> 
+
+<footer id="elementCible">
+    <div class="skill animate__animated animate__fadeInLeftBig mouseover">
+        <h2>
+            Skills
+        </h2>
+        <div class="level">
+            <div class="group1">
+                <h3>
+                    HTML
+                </h3>
+                <h3>
+                    CSS
+                </h3>
+                <h3>
+                    LUA
+                </h3>
+                <h3>
+                    JS
+                </h3>
+            </div>
+            <div class="group2">
+                <div class="bar">
+                    <progress id="bar-1" max="100" value="0"></progress>
+                </div>
+                <div class="bar">
+                    <progress id="bar-2" max="100" value="0"></progress>
+                </div>
+                <div class="bar">
+                    <progress id="bar-3" max="100" value="0"></progress>
+                </div>
+                <div class="bar">
+                    <progress id="bar-4" max="100" value="0"></progress>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="final animate__animated animate__fadeInUpBig mouseover">
+        <h2>
+            Loisirs
+        </h2>
+        <div class="group">
+            <h3>
+                Développement informatique
+            </h3>
+            <h3>
+                Voyages
+            </h3>
+            <h3>
+                Jeux Vidéos
+            </h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</footer>
+
+</body>
+</html>
